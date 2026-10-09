@@ -1,0 +1,40 @@
+custom_rules:
+  - id: UI Name Field
+    description: UI Description Field
+    severity: high
+    cwe:
+      - CWE-123
+      - CWE-456
+      - CWE-789
+    fix_analysis: >-
+      ## UI Fix Analysis Field
+
+
+      ### Cantus pete pennis gradus
+
+
+      Lorem markdownum ardor, et decusque dat orbis tela retia ossa iam et.
+      Morbo in
+
+      idemque unda fui dum domus fontis Harpyia. Ore lapsas spatio dubium,
+      inquit
+
+      cognitus, gemmantia `firewall` procorum?
+    rule_code: Taint<PRED:AnySource, PRED:SqliSanitizer, PRED:AnySink>
+    languages:
+      - apex
+      - c
+      - cpp
+      - csharp
+      - go
+      - html
+      - java
+      - javascript
+      - kotlin
+      - php
+      - python
+      - ruby
+      - scala
+      - swift
+      - typescript
+      - vb
